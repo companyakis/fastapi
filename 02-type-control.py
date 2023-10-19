@@ -16,3 +16,9 @@ item_info: dict[str, float] = {
     "table": 2000.0,
 }
 
+# let's create a list containing int and float values
+
+my_list: list[int | float] = [5, 5.1, 8, 12]
+
+print(my_list)
+
